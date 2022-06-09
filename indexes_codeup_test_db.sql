@@ -1,6 +1,7 @@
 USE codeup_test_db;
 SHOW TABLES;
-CREATE INDEX index_name ON albums (record);
+# CREATE INDEX index_name ON albums (record);
 DESCRIBE albums;
 ALTER TABLE albums
-    ADD UNIQUE (record);
+    ADD UNIQUE (artist);
+DESCRIBE albums;
